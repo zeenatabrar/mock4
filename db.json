@@ -3,20 +3,59 @@
 {
   "id":"1",
   "username":"john",
+  "Avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjv8k9FpJH5AvquxbVyd06B5UludsXYeHuTLTGllucw&s",
   "email":"john@gmail.com",
   "password":"1234"
 },
 {
   "id":"2",
   "username":"zee",
+  "Avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjv8k9FpJH5AvquxbVyd06B5UludsXYeHuTLTGllucw&s",
+  
   "email":"zee@gmail.com",
   "password":"123"
 },
 {
   "id":"3",
   "username":"nick",
+  "Avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjv8k9FpJH5AvquxbVyd06B5UludsXYeHuTLTGllucw&s",
+ 
   "email":"nick@gmail.com",
   "password":"1254"
 }
+    ],
+    "forums":[
+      {
+        "question": {
+          "userAvatar": "user_avatar.png",
+          "username": "JohnDoe123",
+          "questionTitle": "How to sort an array in JavaScript?",
+          "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+          "language": "JavaScript",
+          "upvotes": 10,
+          "answers": 3,
+          "postedDate": "2023-05-30"
+        },
+        "answers": [
+          {
+            "userAvatar": "user_avatar2.png",
+            "username": "JaneSmith456",
+            "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+            "postedDate": "2023-05-31"
+          },
+          {
+            "userAvatar": "user_avatar3.png",
+            "username": "SamJohnson789",
+            "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+            "postedDate": "2023-06-01"
+          },
+          {
+            "userAvatar": "user_avatar4.png",
+            "username": "EmilyBrownXYZ",
+            "answerText": "I recommend using a popular JavaScript library such as 'Lodash' for sorting arrays...",
+            "postedDate": "2023-06-01"
+          }
+        ]
+      }
     ]
 }
